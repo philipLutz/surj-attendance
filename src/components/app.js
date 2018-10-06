@@ -5,7 +5,6 @@ import Navbar from './navigation/navigation';
 import LoginPage from './pages/LoginPage';
 import AccountPage from './pages/AccountPage';
 import OnboardingPage from './pages/OnboardingPage';
-import SignupPage from './pages/SignupPage';
 import { refreshAuthToken, storeAuthInfo } from '../actions/auth';
 import './app.css';
 

@@ -6,8 +6,14 @@ export class OnboardingPage extends React.Component {
 	render() {
 		return (
 			<div className="onboarding-page">
-				
+				<h1>SURJ Attendance tracker</h1>
 			</div>
 		)
 	}
 }
+
+const mapStateToProps = state => {
+	return {};
+};
+
+export default connect(mapStateToProps)(OnboardingPage);
