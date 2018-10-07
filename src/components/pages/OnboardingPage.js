@@ -15,7 +15,7 @@ export class OnboardingPage extends React.Component {
 		return (
 			<section className="onboarding-page">
 				<h1>SURJ Attendance tracker</h1>
-				<p>If you don't know what this is for, you probably don't need to be here.<p>
+				<p>If you don't know what this is for, you probably don't need to be here.</p>
 				<div className="button">{button}</div>
 			</section>
 		);
